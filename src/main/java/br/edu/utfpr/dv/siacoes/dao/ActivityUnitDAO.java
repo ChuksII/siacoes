@@ -52,12 +52,7 @@ public class ActivityUnitDAO {
 			
 			rs = pstmt.executeQuery();
 
-			//TERNARIO AQUI ???!!!!
-			if(rs.next()){
-				return this.loadObject(rs);
-			}else{
-				return null;
-			}
+			return rs.next() ? this.loadObject(rs) : null;
 		}finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
@@ -73,7 +68,7 @@ public class ActivityUnitDAO {
 
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
-			//TERNARIO AQUI???!!!!
+
 			if(insert){
 				pstmt = conn.prepareStatement("INSERT INTO activityunit(description, fillAmount, amountDescription) VALUES(?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
 			}else{
@@ -90,7 +85,7 @@ public class ActivityUnitDAO {
 			
 			pstmt.execute();
 
-			//TERNARIO AQUI???!!! (+COMPLEXO)
+
 			if(insert){
 				rs = pstmt.getGeneratedKeys();
 				

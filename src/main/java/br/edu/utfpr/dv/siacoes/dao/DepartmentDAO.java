@@ -33,12 +33,8 @@ public class DepartmentDAO {
 			
 			rs = pstmt.executeQuery();
 
-			//DÁ PRA FAZER UM TERNÁRIO AQUI?!!!
-			if(rs.next()){
-				return this.loadObject(rs);
-			}else{
-				return null;
-			}
+			return rs.next() ? this.loadObject(rs) : null;
+
 		}finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
@@ -118,7 +114,6 @@ public class DepartmentDAO {
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 
-			//TERNARIO AQUI ?!!!
 			if(insert){
 				pstmt = conn.prepareStatement("INSERT INTO department(idCampus, name, logo, active, site, fullName, initials) VALUES(?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
 			}else{
@@ -144,7 +139,6 @@ public class DepartmentDAO {
 			
 			pstmt.execute();
 
-			//TERNARIO  AQUI (+ COMPLEXO)??????
 			if(insert){
 				rs = pstmt.getGeneratedKeys();
 				

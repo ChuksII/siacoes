@@ -34,12 +34,8 @@ public class BugReportDAO {
 			
 			rs = pstmt.executeQuery();
 
-			//TERNARIO AQUI?????
-			if(rs.next()){
-				return this.loadObject(rs);
-			}else{
-				return null;
-			}
+
+			return rs.next() ? this.loadObject(rs) : null;
 		}finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
@@ -82,7 +78,7 @@ public class BugReportDAO {
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 
-			//TERNARIO AQUI ????!!!!
+
 			if(insert){
 				pstmt = conn.prepareStatement("INSERT INTO bugreport(idUser, module, title, description, reportDate, type, status, statusDate, statusDescription) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
 			}else{
