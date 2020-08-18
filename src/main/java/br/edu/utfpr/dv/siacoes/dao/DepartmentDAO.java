@@ -13,23 +13,27 @@ import br.edu.utfpr.dv.siacoes.log.UpdateEvent;
 import br.edu.utfpr.dv.siacoes.model.Department;
 
 public class DepartmentDAO {
+	Connection conn = null;
+	Statement stmt = null;
+	ResultSet rs = null;
+	PreparedStatement pstmt = null;
 
 	public Department findById(int id) throws SQLException{
-		Connection conn = null;
-		PreparedStatement stmt = null;
-		ResultSet rs = null;
+
+
 		
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
-			stmt = conn.prepareStatement(
+			pstmt = conn.prepareStatement(
 				"SELECT department.*, campus.name AS campusName " +
 				"FROM department INNER JOIN campus ON campus.idCampus=department.idCampus " +
 				"WHERE idDepartment = ?");
 		
-			stmt.setInt(1, id);
+			pstmt.setInt(1, id);
 			
-			rs = stmt.executeQuery();
-			
+			rs = pstmt.executeQuery();
+
+			//DÁ PRA FAZER UM TERNÁRIO AQUI?!!!
 			if(rs.next()){
 				return this.loadObject(rs);
 			}else{
@@ -38,18 +42,18 @@ public class DepartmentDAO {
 		}finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
-			if((stmt != null) && !stmt.isClosed())
-				stmt.close();
+			if((pstmt != null) && !pstmt.isClosed())
+				pstmt.close();
 			if((conn != null) && !conn.isClosed())
 				conn.close();
 		}
 	}
 	
 	public List<Department> listAll(boolean onlyActive) throws SQLException{
-		Connection conn = null;
-		Statement stmt = null;
-		ResultSet rs = null;
-		
+
+
+
+
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 			stmt = conn.createStatement();
@@ -76,10 +80,10 @@ public class DepartmentDAO {
 	}
 	
 	public List<Department> listByCampus(int idCampus, boolean onlyActive) throws SQLException{
-		Connection conn = null;
-		Statement stmt = null;
-		ResultSet rs = null;
-		
+
+
+
+
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 			stmt = conn.createStatement();
@@ -96,6 +100,7 @@ public class DepartmentDAO {
 			
 			return list;
 		}finally{
+
 			if((rs != null) && !rs.isClosed())
 				rs.close();
 			if((stmt != null) && !stmt.isClosed())
@@ -107,39 +112,41 @@ public class DepartmentDAO {
 	
 	public int save(int idUser, Department department) throws SQLException{
 		boolean insert = (department.getIdDepartment() == 0);
-		Connection conn = null;
-		PreparedStatement stmt = null;
-		ResultSet rs = null;
+
+
 		
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
-			
+
+			//TERNARIO AQUI ?!!!
 			if(insert){
-				stmt = conn.prepareStatement("INSERT INTO department(idCampus, name, logo, active, site, fullName, initials) VALUES(?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
+				pstmt = conn.prepareStatement("INSERT INTO department(idCampus, name, logo, active, site, fullName, initials) VALUES(?, ?, ?, ?, ?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
 			}else{
-				stmt = conn.prepareStatement("UPDATE department SET idCampus=?, name=?, logo=?, active=?, site=?, fullName=?, initials=? WHERE idDepartment=?");
+				pstmt = conn.prepareStatement("UPDATE department SET idCampus=?, name=?, logo=?, active=?, site=?, fullName=?, initials=? WHERE idDepartment=?");
 			}
 			
-			stmt.setInt(1, department.getCampus().getIdCampus());
-			stmt.setString(2, department.getName());
+			pstmt.setInt(1, department.getCampus().getIdCampus());
+			pstmt.setString(2, department.getName());
+
 			if(department.getLogo() == null){
-				stmt.setNull(3, Types.BINARY);
+				pstmt.setNull(3, Types.BINARY);
 			}else{
-				stmt.setBytes(3, department.getLogo());	
+				pstmt.setBytes(3, department.getLogo());
 			}
-			stmt.setInt(4, department.isActive() ? 1 : 0);
-			stmt.setString(5, department.getSite());
-			stmt.setString(6, department.getFullName());
-			stmt.setString(7, department.getInitials());
+			pstmt.setInt(4, department.isActive() ? 1 : 0);
+			pstmt.setString(5, department.getSite());
+			pstmt.setString(6, department.getFullName());
+			pstmt.setString(7, department.getInitials());
 			
 			if(!insert){
-				stmt.setInt(8, department.getIdDepartment());
+				pstmt.setInt(8, department.getIdDepartment());
 			}
 			
-			stmt.execute();
-			
+			pstmt.execute();
+
+			//TERNARIO  AQUI (+ COMPLEXO)??????
 			if(insert){
-				rs = stmt.getGeneratedKeys();
+				rs = pstmt.getGeneratedKeys();
 				
 				if(rs.next()){
 					department.setIdDepartment(rs.getInt(1));
@@ -154,8 +161,8 @@ public class DepartmentDAO {
 		}finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
-			if((stmt != null) && !stmt.isClosed())
-				stmt.close();
+			if((pstmt != null) && !pstmt.isClosed())
+				pstmt.close();
 			if((conn != null) && !conn.isClosed())
 				conn.close();
 		}

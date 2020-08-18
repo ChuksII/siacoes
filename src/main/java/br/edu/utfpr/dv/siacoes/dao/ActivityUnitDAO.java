@@ -12,12 +12,13 @@ import br.edu.utfpr.dv.siacoes.log.UpdateEvent;
 import br.edu.utfpr.dv.siacoes.model.ActivityUnit;
 
 public class ActivityUnitDAO {
-	
+	Connection conn = null;
+	Statement stmt = null;
+	ResultSet rs = null;
+	PreparedStatement pstmt = null;
+
+
 	public List<ActivityUnit> listAll() throws SQLException{
-		Connection conn = null;
-		Statement stmt = null;
-		ResultSet rs = null;
-		
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 			stmt = conn.createStatement();
@@ -42,18 +43,16 @@ public class ActivityUnitDAO {
 	}
 	
 	public ActivityUnit findById(int id) throws SQLException{
-		Connection conn = null;
-		PreparedStatement stmt = null;
-		ResultSet rs = null;
-		
+
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
-			stmt = conn.prepareStatement("SELECT * FROM activityunit WHERE idActivityUnit=?");
+			pstmt = conn.prepareStatement("SELECT * FROM activityunit WHERE idActivityUnit=?");
 		
-			stmt.setInt(1, id);
+			pstmt.setInt(1, id);
 			
-			rs = stmt.executeQuery();
-			
+			rs = pstmt.executeQuery();
+
+			//TERNARIO AQUI ???!!!!
 			if(rs.next()){
 				return this.loadObject(rs);
 			}else{
@@ -62,8 +61,8 @@ public class ActivityUnitDAO {
 		}finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
-			if((stmt != null) && !stmt.isClosed())
-				stmt.close();
+			if((pstmt != null) && !pstmt.isClosed())
+				pstmt.close();
 			if((conn != null) && !conn.isClosed())
 				conn.close();
 		}
@@ -71,31 +70,29 @@ public class ActivityUnitDAO {
 	
 	public int save(int idUser, ActivityUnit unit) throws SQLException{
 		boolean insert = (unit.getIdActivityUnit() == 0);
-		Connection conn = null;
-		PreparedStatement stmt = null;
-		ResultSet rs = null;
-		
+
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
-			
+			//TERNARIO AQUI???!!!!
 			if(insert){
-				stmt = conn.prepareStatement("INSERT INTO activityunit(description, fillAmount, amountDescription) VALUES(?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
+				pstmt = conn.prepareStatement("INSERT INTO activityunit(description, fillAmount, amountDescription) VALUES(?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
 			}else{
-				stmt = conn.prepareStatement("UPDATE activityunit SET description=?, fillAmount=?, amountDescription=? WHERE idActivityUnit=?");
+				pstmt = conn.prepareStatement("UPDATE activityunit SET description=?, fillAmount=?, amountDescription=? WHERE idActivityUnit=?");
 			}
 			
-			stmt.setString(1, unit.getDescription());
-			stmt.setInt(2, (unit.isFillAmount() ? 1 : 0));
-			stmt.setString(3, unit.getAmountDescription());
+			pstmt.setString(1, unit.getDescription());
+			pstmt.setInt(2, (unit.isFillAmount() ? 1 : 0));
+			pstmt.setString(3, unit.getAmountDescription());
 			
 			if(!insert){
-				stmt.setInt(4, unit.getIdActivityUnit());
+				pstmt.setInt(4, unit.getIdActivityUnit());
 			}
 			
-			stmt.execute();
-			
+			pstmt.execute();
+
+			//TERNARIO AQUI???!!! (+COMPLEXO)
 			if(insert){
-				rs = stmt.getGeneratedKeys();
+				rs = pstmt.getGeneratedKeys();
 				
 				if(rs.next()){
 					unit.setIdActivityUnit(rs.getInt(1));
@@ -110,8 +107,8 @@ public class ActivityUnitDAO {
 		}finally{
 			if((rs != null) && !rs.isClosed())
 				rs.close();
-			if((stmt != null) && !stmt.isClosed())
-				stmt.close();
+			if((pstmt != null) && !pstmt.isClosed())
+				pstmt.close();
 			if((conn != null) && !conn.isClosed())
 				conn.close();
 		}
