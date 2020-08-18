@@ -36,14 +36,7 @@ public class BugReportDAO {
 
 
 			return rs.next() ? this.loadObject(rs) : null;
-		}finally{
-			if((rs != null) && !rs.isClosed())
-				rs.close();
-			if((pstmt != null) && !pstmt.isClosed())
-				pstmt.close();
-			if((conn != null) && !conn.isClosed())
-				conn.close();
-		}
+		}finally{ CloseConnection1(conn, pstmt, rs); }
 	}
 	
 	public List<BugReport> listAll() throws SQLException{
@@ -62,14 +55,7 @@ public class BugReportDAO {
 			}
 			
 			return list;
-		}finally{
-			if((rs != null) && !rs.isClosed())
-				rs.close();
-			if((stmt != null) && !stmt.isClosed())
-				stmt.close();
-			if((conn != null) && !conn.isClosed())
-				conn.close();
-		}
+		}finally{ CloseConnection2(conn, stmt, rs);	}
 	}
 	
 	public int save(BugReport bug) throws SQLException{
@@ -114,16 +100,27 @@ public class BugReportDAO {
 			}
 			
 			return bug.getIdBugReport();
-		}finally{
-			if((rs != null) && !rs.isClosed())
-				rs.close();
-			if((pstmt != null) && !pstmt.isClosed())
-				pstmt.close();
-			if((conn != null) && !conn.isClosed())
-				conn.close();
-		}
+		}finally{ CloseConnection1(conn, pstmt, rs); }
 	}
-	
+
+	public void CloseConnection1(Connection conn, PreparedStatement pstmt, ResultSet rs) throws SQLException{
+		if((rs != null) && !rs.isClosed())
+			rs.close();
+		if((pstmt != null) && !pstmt.isClosed())
+			pstmt.close();
+		if((conn != null) && !conn.isClosed())
+			conn.close();
+	}
+
+	public void CloseConnection2(Connection conn, Statement stmt, ResultSet rs) throws SQLException{
+		if((rs != null) && !rs.isClosed())
+			rs.close();
+		if((stmt != null) && !stmt.isClosed())
+			stmt.close();
+		if((conn != null) && !conn.isClosed())
+			conn.close();
+	}
+
 	private BugReport loadObject(ResultSet rs) throws SQLException{
 		BugReport bug = new BugReport();
 		

@@ -20,8 +20,6 @@ public class DepartmentDAO {
 
 	public Department findById(int id) throws SQLException{
 
-
-		
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 			pstmt = conn.prepareStatement(
@@ -35,20 +33,10 @@ public class DepartmentDAO {
 
 			return rs.next() ? this.loadObject(rs) : null;
 
-		}finally{
-			if((rs != null) && !rs.isClosed())
-				rs.close();
-			if((pstmt != null) && !pstmt.isClosed())
-				pstmt.close();
-			if((conn != null) && !conn.isClosed())
-				conn.close();
-		}
+		}finally{ CloseConnection1(conn, pstmt, rs); }
 	}
 	
 	public List<Department> listAll(boolean onlyActive) throws SQLException{
-
-
-
 
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
@@ -65,20 +53,10 @@ public class DepartmentDAO {
 			}
 			
 			return list;
-		}finally{
-			if((rs != null) && !rs.isClosed())
-				rs.close();
-			if((stmt != null) && !stmt.isClosed())
-				stmt.close();
-			if((conn != null) && !conn.isClosed())
-				conn.close();
-		}
+		}finally{ CloseConnection2(conn, stmt, rs);	}
 	}
 	
 	public List<Department> listByCampus(int idCampus, boolean onlyActive) throws SQLException{
-
-
-
 
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
@@ -95,22 +73,12 @@ public class DepartmentDAO {
 			}
 			
 			return list;
-		}finally{
-
-			if((rs != null) && !rs.isClosed())
-				rs.close();
-			if((stmt != null) && !stmt.isClosed())
-				stmt.close();
-			if((conn != null) && !conn.isClosed())
-				conn.close();
-		}
+		}finally{ CloseConnection2(conn, stmt, rs); }
 	}
 	
 	public int save(int idUser, Department department) throws SQLException{
 		boolean insert = (department.getIdDepartment() == 0);
 
-
-		
 		try{
 			conn = ConnectionDAO.getInstance().getConnection();
 
@@ -152,16 +120,28 @@ public class DepartmentDAO {
 			}
 			
 			return department.getIdDepartment();
-		}finally{
-			if((rs != null) && !rs.isClosed())
-				rs.close();
-			if((pstmt != null) && !pstmt.isClosed())
-				pstmt.close();
-			if((conn != null) && !conn.isClosed())
-				conn.close();
-		}
+		}finally{ CloseConnection1(conn, pstmt, rs); }
 	}
-	
+
+	public void CloseConnection1(Connection conn, PreparedStatement pstmt, ResultSet rs) throws SQLException{
+		if((rs != null) && !rs.isClosed())
+			rs.close();
+		if((pstmt != null) && !pstmt.isClosed())
+			pstmt.close();
+		if((conn != null) && !conn.isClosed())
+			conn.close();
+	}
+
+	public void CloseConnection2(Connection conn, Statement stmt, ResultSet rs) throws SQLException{
+		if((rs != null) && !rs.isClosed())
+			rs.close();
+		if((stmt != null) && !stmt.isClosed())
+			stmt.close();
+		if((conn != null) && !conn.isClosed())
+			conn.close();
+	}
+
+
 	private Department loadObject(ResultSet rs) throws SQLException{
 		Department department = new Department();
 		
