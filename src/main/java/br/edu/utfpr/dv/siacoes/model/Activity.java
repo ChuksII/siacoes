@@ -19,5 +19,4 @@ public class Activity implements Serializable {
 	private boolean active;
 	private int sequence;
 
-
 }

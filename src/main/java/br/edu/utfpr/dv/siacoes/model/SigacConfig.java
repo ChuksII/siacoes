@@ -5,7 +5,7 @@ import java.io.Serializable;
 import br.edu.utfpr.dv.siacoes.util.StringUtils;
 import lombok.*;
 
-@Setter @Getter @AllArgsConstructor
+@Setter @Getter @NoArgsConstructor
 public class SigacConfig implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
