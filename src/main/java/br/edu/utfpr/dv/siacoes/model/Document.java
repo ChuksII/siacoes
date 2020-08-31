@@ -4,6 +4,9 @@ import java.io.Serializable;
 
 import br.edu.utfpr.dv.siacoes.model.Module.SystemModule;
 
+import lombok.Data;
+
+@Data
 public class Document implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
@@ -15,11 +18,11 @@ public class Document implements Serializable {
 		DocumentType(int value){ 
 			this.value = value; 
 		}
-		
-		public int getValue(){ 
-			return value;
+		public int getValue(){
+
+				return value;
 		}
-		
+
 		public String getExtension(){
 			switch(this){
 			case PDF:
@@ -89,57 +92,5 @@ public class Document implements Serializable {
 	private int sequence;
 	private Department department;
 	private SystemModule module;
-	
-	public Document(){
-		this.setIdDocument(0);
-		this.setName("");
-		this.setType(DocumentType.UNDEFINED);
-		this.setSequence(0);
-		this.setDepartment(new Department());
-		this.setModule(SystemModule.GENERAL);
-	}
-	
-	public int getIdDocument() {
-		return idDocument;
-	}
-	public void setIdDocument(int idDocument) {
-		this.idDocument = idDocument;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public DocumentType getType() {
-		return type;
-	}
-	public void setType(DocumentType type) {
-		this.type = type;
-	}
-	public byte[] getFile() {
-		return file;
-	}
-	public void setFile(byte[] file) {
-		this.file = file;
-	}
-	public int getSequence() {
-		return sequence;
-	}
-	public void setSequence(int sequence) {
-		this.sequence = sequence;
-	}
-	public void setDepartment(Department department){
-		this.department = department;
-	}
-	public Department getDepartment(){
-		return department;
-	}
-	public void setModule(SystemModule module){
-		this.module = module;
-	}
-	public SystemModule getModule(){
-		return module;
-	}
-	
+
 }
