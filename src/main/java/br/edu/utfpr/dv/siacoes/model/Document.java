@@ -4,9 +4,11 @@ import java.io.Serializable;
 
 import br.edu.utfpr.dv.siacoes.model.Module.SystemModule;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
-@Data
+@Setter @Getter @RequiredArgsConstructor
 public class Document implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
@@ -92,5 +94,6 @@ public class Document implements Serializable {
 	private int sequence;
 	private Department department;
 	private SystemModule module;
+	
 
 }
