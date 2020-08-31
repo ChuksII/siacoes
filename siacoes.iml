@@ -171,5 +171,6 @@
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-util:5.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm-tree:5.0.2" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:1.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.12" level="project" />
   </component>
 </module>
