@@ -94,6 +94,6 @@ public class Document implements Serializable {
 	private int sequence;
 	private Department department;
 	private SystemModule module;
-	
+
 
 }
