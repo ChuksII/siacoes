@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.edu.utfpr.dv.siacoes.model</OriginalElement>
+  <nodes>
+    <node x="11937.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.LibraryCoverReport</node>
+    <node x="6866.296224256592" y="567.0">br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserReport</node>
+    <node x="4434.884938865964" y="5715.0">br.edu.utfpr.dv.siacoes.model.Certificate</node>
+    <node x="8501.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.InternshipMissingDocumentsReport</node>
+    <node x="10745.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.TutoredBySupervisor</node>
+    <node x="4480.055524127615" y="2325.0">br.edu.utfpr.dv.siacoes.model.InternshipEvaluationItem</node>
+    <node x="9638.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.AppConfig</node>
+    <node x="1926.0006993455895" y="12557.0">br.edu.utfpr.dv.siacoes.model.JuryAppraiserRequest</node>
+    <node x="6300.421224256592" y="358.0">br.edu.utfpr.dv.siacoes.model.State</node>
+    <node x="2606.0875957238595" y="11650.0">br.edu.utfpr.dv.siacoes.model.Tutored</node>
+    <node x="8850.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.JuryStudentReport</node>
+    <node x="447.23197207684734" y="5374.0">br.edu.utfpr.dv.siacoes.model.ActivitySubmission</node>
+    <node x="1775.5006993455895" y="10397.0">br.edu.utfpr.dv.siacoes.model.Jury</node>
+    <node x="4018.1278844785884" y="4134.5">br.edu.utfpr.dv.siacoes.model.Module</node>
+    <node x="12859.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.Credential</node>
+    <node x="7677.246224256592" y="0.0">br.edu.utfpr.dv.siacoes.model.ActivitySubmissionDetailReport</node>
+    <node x="6311.921224256592" y="1023.0">br.edu.utfpr.dv.siacoes.model.City</node>
+    <node x="12174.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.JuryBySemester</node>
+    <node x="1099.4541942990693" y="5484.0">br.edu.utfpr.dv.siacoes.model.UserInfo</node>
+    <node x="90.83333333333303" y="2358.0">br.edu.utfpr.dv.siacoes.model.ActivityGroup</node>
+    <node x="9118.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.TermOfApprovalReport</node>
+    <node x="4931.743665153257" y="7286.0">br.edu.utfpr.dv.siacoes.model.InternshipReport</node>
+    <node x="7393.246224256592" y="0.0">br.edu.utfpr.dv.siacoes.model.StatementReport</node>
+    <node x="6596.808724256592" y="1629.0">br.edu.utfpr.dv.siacoes.model.JuryFormReport</node>
+    <node x="1863.5006993455895" y="11672.0">br.edu.utfpr.dv.siacoes.model.JuryRequest</node>
+    <node x="8120.246224256591" y="633.0">br.edu.utfpr.dv.siacoes.model.StudentActivityStatusReport</node>
+    <node x="4405.190384478588" y="968.0">br.edu.utfpr.dv.siacoes.model.Semester</node>
+    <node x="843.4541942990691" y="5715.0">br.edu.utfpr.dv.siacoes.model.FinalSubmission</node>
+    <node x="10162.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.CalendarReport</node>
+    <node x="595.4541942990691" y="2292.0">br.edu.utfpr.dv.siacoes.model.EvaluationItem</node>
+    <node x="4802.618148859767" y="5649.0">br.edu.utfpr.dv.siacoes.model.ThemeSuggestion</node>
+    <node x="2090.280877436335" y="7011.0">br.edu.utfpr.dv.siacoes.model.Proposal</node>
+    <node x="9903.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.LibraryReport</node>
+    <node x="2791.744961943377" y="2226.0">br.edu.utfpr.dv.siacoes.model.UserDepartment</node>
+    <node x="2616.7601382963862" y="10441.0">br.edu.utfpr.dv.siacoes.model.FinalDocument</node>
+    <node x="6298.421224256592" y="2314.0">br.edu.utfpr.dv.siacoes.model.Company</node>
+    <node x="3920.8159407942817" y="9674.0">br.edu.utfpr.dv.siacoes.model.InternshipPosterAppraiserRequest</node>
+    <node x="4514.190384478588" y="259.0">br.edu.utfpr.dv.siacoes.model.Campus</node>
+    <node x="2852.3226382963862" y="8399.0">br.edu.utfpr.dv.siacoes.model.SupervisorChange</node>
+    <node x="4995.993148859767" y="2259.0">br.edu.utfpr.dv.siacoes.model.Deadline</node>
+    <node x="295.26669429906906" y="3792.0">br.edu.utfpr.dv.siacoes.model.Activity</node>
+    <node x="5972.421224256592" y="2050.0">br.edu.utfpr.dv.siacoes.model.SigesConfig</node>
+    <node x="5302.993148859767" y="1753.0">br.edu.utfpr.dv.siacoes.model.SigetConfig</node>
+    <node x="5185.743665153257" y="7286.0">br.edu.utfpr.dv.siacoes.model.InternshipFinalDocument</node>
+    <node x="5716.421224256592" y="2446.0">br.edu.utfpr.dv.siacoes.model.SigacConfig</node>
+    <node x="6531.421224256592" y="732.0">br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserScoreReport</node>
+    <node x="283.3778054101804" y="2391.0">br.edu.utfpr.dv.siacoes.model.ActivityUnit</node>
+    <node x="3890.3159407942817" y="10716.0">br.edu.utfpr.dv.siacoes.model.InternshipPosterRequestForm</node>
+    <node x="6309.921224256592" y="0.0">br.edu.utfpr.dv.siacoes.model.Country</node>
+    <node x="4426.055524127615" y="3990.0">br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiserScore</node>
+    <node x="2625.3226382963862" y="8421.0">br.edu.utfpr.dv.siacoes.model.Project</node>
+    <node x="3910.190940794282" y="6912.0">br.edu.utfpr.dv.siacoes.model.InternshipJury</node>
+    <node x="6972.246224256592" y="1464.0">br.edu.utfpr.dv.siacoes.model.InternshipJuryFormReport</node>
+    <node x="4217.4202321931" y="2325.0">br.edu.utfpr.dv.siacoes.model.Document</node>
+    <node x="10391.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.JuryGrade</node>
+    <node x="3114.3226382963862" y="5715.0">br.edu.utfpr.dv.siacoes.model.Message</node>
+    <node x="1397.4323633131537" y="9509.0">br.edu.utfpr.dv.siacoes.model.JuryAppraiser</node>
+    <node x="4095.884938865964" y="5649.0">br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiser</node>
+    <node x="1888.4323633131537" y="9542.0">br.edu.utfpr.dv.siacoes.model.AttendanceReport</node>
+    <node x="4611.190384478588" y="858.0">br.edu.utfpr.dv.siacoes.model.Department</node>
+    <node x="9384.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.EmailConfig</node>
+    <node x="2432.7949619433766" y="9410.0">br.edu.utfpr.dv.siacoes.model.Thesis</node>
+    <node x="353.23197207684734" y="7451.0">br.edu.utfpr.dv.siacoes.model.ActivitySubmissionItem</node>
+    <node x="2845.744961943377" y="3484.0">br.edu.utfpr.dv.siacoes.model.User</node>
+    <node x="3792.7909407942816" y="5616.0">br.edu.utfpr.dv.siacoes.model.BugReport</node>
+    <node x="2104.73542289088" y="5682.0">br.edu.utfpr.dv.siacoes.model.ProposalAppraiser</node>
+    <node x="3999.815940794282" y="8641.0">br.edu.utfpr.dv.siacoes.model.InternshipPosterRequest</node>
+    <node x="7755.246224256591" y="666.0">br.edu.utfpr.dv.siacoes.model.ActivitySubmissionReport</node>
+    <node x="1345.2975441030014" y="8685.0">br.edu.utfpr.dv.siacoes.model.JuryAppraiserScore</node>
+    <node x="12387.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.InternshipByCompany</node>
+    <node x="8027.246224256591" y="33.0">br.edu.utfpr.dv.siacoes.model.ActivitySubmissionFooterReport</node>
+    <node x="11068.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.ActivityValidationReport</node>
+    <node x="0.0" y="4056.0">br.edu.utfpr.dv.siacoes.model.ActivityGroupStatus</node>
+    <node x="13083.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.EmailMessageEntry</node>
+    <node x="12645.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.ActivityScore</node>
+    <node x="1934.1823633131537" y="8487.0">br.edu.utfpr.dv.siacoes.model.Attendance</node>
+    <node x="11353.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.EmailMessage</node>
+    <node x="6889.296224256592" y="0.0">br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserDetailReport</node>
+    <node x="1683.4323633131537" y="9707.0">br.edu.utfpr.dv.siacoes.model.JuryStudent</node>
+    <node x="3525.7909407942816" y="5847.0">br.edu.utfpr.dv.siacoes.model.InternshipJuryStudent</node>
+    <node x="5304.104259970878" y="5275.0">br.edu.utfpr.dv.siacoes.model.Internship</node>
+    <node x="11652.24622425659" y="0.0">br.edu.utfpr.dv.siacoes.model.SupervisorFeedbackReport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Proposal" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-108.72727272727252" y="-599.5" />
+      <point x="2131.053604709062" y="6882.0" />
+      <point x="1077.9541942990693" y="6882.0" />
+      <point x="1077.9541942990693" y="1613.0" />
+      <point x="4663.502884478588" y="1613.0" />
+      <point x="-40.6875" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivitySubmissionItem" target="br.edu.utfpr.dv.siacoes.model.ActivitySubmission">
+      <point x="21.66666666666697" y="-159.5" />
+      <point x="504.8986387435143" y="6892.0" />
+      <point x="486.8986387435143" y="6892.0" />
+      <point x="-79.33333333333303" y="599.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryStudent" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-82.0" y="-126.5" />
+      <point x="3566.7909407942816" y="5055.0" />
+      <point x="3057.2238351828137" y="5055.0" />
+      <point x="68.47887323943678" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Internship" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-32.77777777777783" y="-698.5" />
+      <point x="5418.8264821931" y="4845.0" />
+      <point x="4985.493148859767" y="4845.0" />
+      <point x="4985.493148859767" y="1683.0" />
+      <point x="4729.377884478588" y="1683.0" />
+      <point x="25.1875" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.User" target="br.edu.utfpr.dv.siacoes.model.UserDepartment">
+      <point x="-125.125" y="-665.5" />
+      <point x="2863.619961943377" y="3464.0" />
+      <point x="2854.494961943377" y="3464.0" />
+      <point x="-62.75" y="357.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryRequest" target="br.edu.utfpr.dv.siacoes.model.Project">
+      <point x="109.09090909090901" y="-401.5" />
+      <point x="2122.5916084364985" y="11620.0" />
+      <point x="2233.415696646487" y="11620.0" />
+      <point x="2233.415696646487" y="10347.0" />
+      <point x="2422.2949619433766" y="10347.0" />
+      <point x="2422.2949619433766" y="9350.0" />
+      <point x="2668.4476382963862" y="9350.0" />
+      <point x="-60.375" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Tutored" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="118.80000000000018" y="-423.5" />
+      <point x="2873.3875957238597" y="11620.0" />
+      <point x="3103.8226382963862" y="11620.0" />
+      <point x="3103.8226382963862" y="5215.0" />
+      <point x="2992.7731309574615" y="5215.0" />
+      <point x="4.028169014084597" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Thesis" target="br.edu.utfpr.dv.siacoes.model.Project">
+      <point x="17.25" y="-423.5" />
+      <point x="2553.5449619433766" y="9360.0" />
+      <point x="2685.6976382963862" y="9360.0" />
+      <point x="-43.125" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ProposalAppraiser" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-83.0" y="-291.5" />
+      <point x="2146.23542289088" y="5135.0" />
+      <point x="2928.3224267321093" y="5135.0" />
+      <point x="-60.422535211267586" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.FinalSubmission" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="18.666666666666742" y="-258.5" />
+      <point x="974.1208609657358" y="4965.0" />
+      <point x="2859.8435534926725" y="4965.0" />
+      <point x="-128.90140845070437" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Internship" target="br.edu.utfpr.dv.siacoes.model.Company">
+      <point x="65.55555555555566" y="-698.5" />
+      <point x="5517.159815526433" y="5235.0" />
+      <point x="6428.421224256592" y="5235.0" />
+      <point x="6428.421224256592" y="3464.0" />
+      <point x="6408.087890923258" y="3464.0" />
+      <point x="15.666666666666515" y="269.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequestForm" target="br.edu.utfpr.dv.siacoes.model.InternshipPosterAppraiserRequest">
+      <point x="-22.8125" y="-247.5" />
+      <point x="4050.0034407942817" y="10347.0" />
+      <point x="3996.8159407942817" y="10347.0" />
+      <point x="-76.0" y="159.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryAppraiserScore" target="br.edu.utfpr.dv.siacoes.model.EvaluationItem">
+      <point x="-85.33333333333303" y="-159.5" />
+      <point x="1387.9642107696684" y="8379.0" />
+      <point x="730.287527632403" y="8379.0" />
+      <point x="730.287527632403" y="3464.0" />
+      <point x="633.2875276324021" y="3464.0" />
+      <point x="-75.66666666666697" y="291.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Proposal" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="135.909090909091" y="-599.5" />
+      <point x="2375.6899683454258" y="6892.0" />
+      <point x="2386.23542289088" y="6892.0" />
+      <point x="2386.23542289088" y="5185.0" />
+      <point x="2948.463271802532" y="5185.0" />
+      <point x="-40.28169014084506" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Attendance" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-16.5" y="-357.5" />
+      <point x="2016.6823633131537" y="5125.0" />
+      <point x="2924.2942577180247" y="5125.0" />
+      <point x="-64.45070422535218" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Document" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-74.66666666666697" y="-258.5" />
+      <point x="4254.753565526433" y="1683.0" />
+      <point x="4690.627884478588" y="1683.0" />
+      <point x="-13.5625" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Jury" target="br.edu.utfpr.dv.siacoes.model.Project">
+      <point x="90.66666666666697" y="-566.5" />
+      <point x="2002.1673660122565" y="10337.0" />
+      <point x="2411.2949619433766" y="10337.0" />
+      <point x="2411.2949619433766" y="9340.0" />
+      <point x="2651.1976382963862" y="9340.0" />
+      <point x="-77.625" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Thesis" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-86.25" y="-423.5" />
+      <point x="2450.0449619433766" y="9310.0" />
+      <point x="2496.8226382963862" y="9310.0" />
+      <point x="2496.8226382963862" y="5205.0" />
+      <point x="2956.519609830701" y="5205.0" />
+      <point x="-32.225352112675864" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryStudent" target="br.edu.utfpr.dv.siacoes.model.InternshipJury">
+      <point x="0.0" y="126.5" />
+      <point x="3648.7909407942816" y="6862.0" />
+      <point x="3993.921710025051" y="6862.0" />
+      <point x="-71.76923076923072" y="-698.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryFormReport" target="br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserScoreReport">
+      <point x="-132.375" y="-522.5" />
+      <point x="6640.933724256592" y="1444.0" />
+      <point x="6599.421224256592" y="1444.0" />
+      <point x="-68.0" y="258.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Message" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-72.66666666666652" y="-258.5" />
+      <point x="3150.6559716297197" y="5205.0" />
+      <point x="2996.801299971546" y="5205.0" />
+      <point x="8.056338028169193" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivitySubmissionReport" target="br.edu.utfpr.dv.siacoes.model.ActivitySubmissionFooterReport">
+      <point x="42.00000000000091" y="-291.5" />
+      <point x="7965.246224256592" y="603.0" />
+      <point x="8063.246224256591" y="603.0" />
+      <point x="-108.0" y="258.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.FinalDocument" target="br.edu.utfpr.dv.siacoes.model.Thesis">
+      <point x="-128.75" y="-522.5" />
+      <point x="2642.5101382963862" y="10367.0" />
+      <point x="2582.2949619433766" y="10367.0" />
+      <point x="46.0" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Jury" target="br.edu.utfpr.dv.siacoes.model.JuryRequest">
+      <point x="34.0" y="566.5" />
+      <point x="1945.5006993455895" y="11590.0" />
+      <point x="1986.2279720728625" y="11590.0" />
+      <point x="-27.272727272727025" y="-401.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ProposalAppraiser" target="br.edu.utfpr.dv.siacoes.model.Proposal">
+      <point x="0.0" y="291.5" />
+      <point x="2229.23542289088" y="6892.0" />
+      <point x="2239.780877436335" y="6892.0" />
+      <point x="0.0" y="-599.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.AttendanceReport" target="br.edu.utfpr.dv.siacoes.model.Attendance">
+      <point x="-64.75" y="-291.5" />
+      <point x="1953.1823633131537" y="9390.0" />
+      <point x="1983.6823633131537" y="9390.0" />
+      <point x="-49.5" y="357.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Tutored" target="br.edu.utfpr.dv.siacoes.model.FinalDocument">
+      <point x="0.0" y="-423.5" />
+      <point x="2754.5875957238595" y="11550.0" />
+      <point x="2668.2601382963862" y="11550.0" />
+      <point x="-103.0" y="522.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.City" target="br.edu.utfpr.dv.siacoes.model.State">
+      <point x="-53.66666666666666" y="-137.5" />
+      <point x="6338.754557589926" y="838.0" />
+      <point x="6331.087890923258" y="838.0" />
+      <point x="-61.333333333333336" y="170.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivitySubmission" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="52.88888888888869" y="-599.5" />
+      <point x="619.120860965736" y="4935.0" />
+      <point x="2847.759046450419" y="4935.0" />
+      <point x="-140.9859154929577" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ThemeSuggestion" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-93.33333333333303" y="-324.5" />
+      <point x="4821.284815526434" y="4905.0" />
+      <point x="3109.590032365912" y="4905.0" />
+      <point x="120.84507042253517" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Tutored" target="br.edu.utfpr.dv.siacoes.model.Proposal">
+      <point x="-118.80000000000018" y="-423.5" />
+      <point x="2635.7875957238593" y="11610.0" />
+      <point x="2255.415696646487" y="11610.0" />
+      <point x="2255.415696646487" y="8379.0" />
+      <point x="2250.4594488649063" y="8379.0" />
+      <point x="10.678571428571558" y="599.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivityGroupStatus" target="br.edu.utfpr.dv.siacoes.model.ActivityGroup">
+      <point x="-69.0" y="-93.5" />
+      <point x="34.5" y="3454.0" />
+      <point x="107.16666666666606" y="3454.0" />
+      <point x="-81.66666666666697" y="225.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequest" target="br.edu.utfpr.dv.siacoes.model.InternshipPosterAppraiserRequest">
+      <point x="73.0" y="203.5" />
+      <point x="4255.315940794282" y="9380.0" />
+      <point x="4167.815940794282" y="9380.0" />
+      <point x="95.00000000000023" y="-159.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivitySubmission" target="br.edu.utfpr.dv.siacoes.model.Activity">
+      <point x="-105.77777777777737" y="-599.5" />
+      <point x="460.45419429906997" y="5255.0" />
+      <point x="439.93336096573603" y="5255.0" />
+      <point x="20.66666666666697" y="357.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Activity" target="br.edu.utfpr.dv.siacoes.model.ActivityUnit">
+      <point x="-27.555555555555657" y="-357.5" />
+      <point x="391.7111387435134" y="3434.0" />
+      <point x="322.2111387435134" y="3434.0" />
+      <point x="-77.66666666666697" y="192.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryRequest" target="br.edu.utfpr.dv.siacoes.model.JuryAppraiserRequest">
+      <point x="60.0" y="401.5" />
+      <point x="2073.5006993455895" y="12537.0" />
+      <point x="2058.1881993455895" y="12537.0" />
+      <point x="14.6875" y="-192.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.UserDepartment" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="20.916666666666515" y="357.5" />
+      <point x="2938.1616286100434" y="3464.0" />
+      <point x="2935.119961943377" y="3464.0" />
+      <point x="-53.625" y="-665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiser" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-139.5625" y="-324.5" />
+      <point x="4115.822438865964" y="4985.0" />
+      <point x="3085.4210182814054" y="4985.0" />
+      <point x="96.6760563380285" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Internship" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-131.1111111111111" y="-698.5" />
+      <point x="5320.493148859767" y="4875.0" />
+      <point x="3121.674539408166" y="4875.0" />
+      <point x="132.92957746478896" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.User" target="br.edu.utfpr.dv.siacoes.model.Company">
+      <point x="53.625" y="-665.5" />
+      <point x="3042.369961943377" y="3444.0" />
+      <point x="6314.087890923258" y="3444.0" />
+      <point x="-78.33333333333333" y="269.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Project" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="86.25" y="-423.5" />
+      <point x="2815.0726382963862" y="8379.0" />
+      <point x="2823.0894283025837" y="8379.0" />
+      <point x="2823.0894283025837" y="5255.0" />
+      <point x="2976.6604549011236" y="5255.0" />
+      <point x="-12.084507042253335" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryAppraiserScore" target="br.edu.utfpr.dv.siacoes.model.JuryAppraiser">
+      <point x="0.0" y="159.5" />
+      <point x="1473.2975441030014" y="9390.0" />
+      <point x="1480.5573633131537" y="9390.0" />
+      <point x="-49.875" y="-324.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Jury" target="br.edu.utfpr.dv.siacoes.model.Thesis">
+      <point x="108.80000000000018" y="-566.5" />
+      <point x="2020.3006993455897" y="10357.0" />
+      <point x="2444.2949619433766" y="10357.0" />
+      <point x="-92.0" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryFormReport" target="br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserReport">
+      <point x="-94.0" y="-687.5" />
+      <point x="7066.246224256592" y="1444.0" />
+      <point x="7070.046224256592" y="1444.0" />
+      <point x="40.75" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Jury" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="54.399999999999636" y="-566.5" />
+      <point x="1965.9006993455891" y="10277.0" />
+      <point x="1877.9323633131537" y="10277.0" />
+      <point x="1877.9323633131537" y="5095.0" />
+      <point x="2912.2097506757714" y="5095.0" />
+      <point x="-76.53521126760552" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Certificate" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="93.33333333333326" y="-258.5" />
+      <point x="4640.218272199298" y="5255.0" />
+      <point x="4846.680648859767" y="5255.0" />
+      <point x="4846.680648859767" y="1723.0" />
+      <point x="4713.877884478588" y="1723.0" />
+      <point x="9.6875" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryAppraiser" target="br.edu.utfpr.dv.siacoes.model.Jury">
+      <point x="0.0" y="324.5" />
+      <point x="1530.4323633131537" y="10357.0" />
+      <point x="1820.834032678923" y="10357.0" />
+      <point x="-90.66666666666652" y="-566.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryFormReport" target="br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserReport">
+      <point x="44.125" y="-522.5" />
+      <point x="6817.433724256592" y="1434.0" />
+      <point x="6907.046224256592" y="1434.0" />
+      <point x="-122.25" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Tutored" target="br.edu.utfpr.dv.siacoes.model.Project">
+      <point x="79.19999999999982" y="-423.5" />
+      <point x="2833.7875957238593" y="11600.0" />
+      <point x="2947.2601382963862" y="11600.0" />
+      <point x="2947.2601382963862" y="9360.0" />
+      <point x="2806.4476382963862" y="9360.0" />
+      <point x="77.625" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivitySubmission" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="0.0" y="-599.5" />
+      <point x="566.2319720768473" y="5255.0" />
+      <point x="573.9541942990691" y="5255.0" />
+      <point x="573.9541942990691" y="1523.0" />
+      <point x="4628.627884478588" y="1523.0" />
+      <point x="-75.5625" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipFinalDocument" target="br.edu.utfpr.dv.siacoes.model.Internship">
+      <point x="-103.0" y="-324.5" />
+      <point x="5237.243665153257" y="6852.0" />
+      <point x="5496.988875355493" y="6852.0" />
+      <point x="45.38461538461547" y="698.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJury" target="br.edu.utfpr.dv.siacoes.model.Internship">
+      <point x="119.61538461538453" y="-698.5" />
+      <point x="4185.306325409667" y="6772.0" />
+      <point x="5315.450413817031" y="6772.0" />
+      <point x="-136.1538461538462" y="698.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiser" target="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiserScore">
+      <point x="-19.9375" y="-324.5" />
+      <point x="4235.447438865964" y="5205.0" />
+      <point x="4462.255524127615" y="5205.0" />
+      <point x="-144.8" y="159.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Proposal" target="br.edu.utfpr.dv.siacoes.model.ProposalAppraiser">
+      <point x="-54.36363636363649" y="-599.5" />
+      <point x="2185.417241072698" y="6862.0" />
+      <point x="2129.6354228908804" y="6862.0" />
+      <point x="-99.59999999999991" y="291.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiserScore" target="br.edu.utfpr.dv.siacoes.model.InternshipEvaluationItem">
+      <point x="-120.66666666666669" y="-159.5" />
+      <point x="4486.388857460948" y="3434.0" />
+      <point x="4522.388857460948" y="3434.0" />
+      <point x="-84.66666666666669" y="258.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Jury" target="br.edu.utfpr.dv.siacoes.model.JuryAppraiser">
+      <point x="-126.9333333333334" y="-566.5" />
+      <point x="1784.5673660122561" y="10377.0" />
+      <point x="1424.032363313154" y="10377.0" />
+      <point x="-106.39999999999964" y="324.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJury" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-143.53846153846143" y="-698.5" />
+      <point x="3922.1524792558203" y="6892.0" />
+      <point x="3445.375571130633" y="6892.0" />
+      <point x="3445.375571130633" y="5085.0" />
+      <point x="3045.13932814056" y="5085.0" />
+      <point x="56.39436619718299" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.SupervisorChange" target="br.edu.utfpr.dv.siacoes.model.Proposal">
+      <point x="-96.40000000000009" y="-445.5" />
+      <point x="2876.422638296386" y="8339.0" />
+      <point x="2357.24516315062" y="8339.0" />
+      <point x="117.46428571428578" y="599.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipReport" target="br.edu.utfpr.dv.siacoes.model.Internship">
+      <point x="-14.5625" y="-324.5" />
+      <point x="5033.681165153257" y="6792.0" />
+      <point x="5360.835029201647" y="6792.0" />
+      <point x="-90.76923076923072" y="698.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.State" target="br.edu.utfpr.dv.siacoes.model.Country">
+      <point x="-61.33333333333334" y="-170.5" />
+      <point x="6331.087890923258" y="234.0" />
+      <point x="6337.421224256592" y="234.0" />
+      <point x="-55.0" y="104.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Tutored" target="br.edu.utfpr.dv.siacoes.model.Thesis">
+      <point x="-19.800000000000182" y="-423.5" />
+      <point x="2734.7875957238593" y="11560.0" />
+      <point x="2606.2601382963862" y="11560.0" />
+      <point x="2606.2601382963862" y="10377.0" />
+      <point x="2559.2949619433766" y="10377.0" />
+      <point x="23.0" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipReport" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-101.9375" y="-324.5" />
+      <point x="4946.306165153257" y="6712.0" />
+      <point x="3504.2909407942816" y="6712.0" />
+      <point x="3504.2909407942816" y="5075.0" />
+      <point x="3049.1674971546445" y="5075.0" />
+      <point x="60.422535211267586" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequestForm" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="159.6875" y="-247.5" />
+      <point x="4232.503440794282" y="10377.0" />
+      <point x="6287.921224256592" y="10377.0" />
+      <point x="6287.921224256592" y="1513.0" />
+      <point x="4795.252884478588" y="1513.0" />
+      <point x="91.0625" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJury" target="br.edu.utfpr.dv.siacoes.model.InternshipJuryStudent">
+      <point x="-119.61538461538476" y="-698.5" />
+      <point x="3946.0755561788974" y="6882.0" />
+      <point x="3550.390940794282" y="6882.0" />
+      <point x="-98.40000000000009" y="126.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ThemeSuggestion" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="18.66666666666697" y="-324.5" />
+      <point x="4933.284815526434" y="5255.0" />
+      <point x="4959.618148859767" y="5255.0" />
+      <point x="4959.618148859767" y="1713.0" />
+      <point x="4717.752884478588" y="1713.0" />
+      <point x="13.5625" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.FinalDocument" target="br.edu.utfpr.dv.siacoes.model.Project">
+      <point x="77.25" y="-522.5" />
+      <point x="2848.5101382963862" y="10367.0" />
+      <point x="2901.6351382963862" y="10367.0" />
+      <point x="2901.6351382963862" y="9390.0" />
+      <point x="2754.6976382963862" y="9390.0" />
+      <point x="25.875" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivitySubmissionItem" target="br.edu.utfpr.dv.siacoes.model.Activity">
+      <point x="-108.33333333333303" y="-159.5" />
+      <point x="374.8986387435143" y="6892.0" />
+      <point x="376.6000276324021" y="6892.0" />
+      <point x="376.6000276324021" y="5255.0" />
+      <point x="315.93336096573603" y="5255.0" />
+      <point x="-103.33333333333303" y="357.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequest" target="br.edu.utfpr.dv.siacoes.model.Internship">
+      <point x="52.14285714285711" y="-203.5" />
+      <point x="4234.458797937139" y="8359.0" />
+      <point x="5175.243665153257" y="8359.0" />
+      <point x="5175.243665153257" y="6842.0" />
+      <point x="5474.296567663185" y="6842.0" />
+      <point x="22.692307692307622" y="698.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJury" target="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequest">
+      <point x="38.875" y="698.5" />
+      <point x="4104.565940794282" y="8379.0" />
+      <point x="4130.173083651425" y="8379.0" />
+      <point x="-52.14285714285711" y="-203.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryAppraiser" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="49.875" y="-324.5" />
+      <point x="1580.3073633131537" y="9370.0" />
+      <point x="1681.6057788061114" y="9370.0" />
+      <point x="1681.6057788061114" y="5035.0" />
+      <point x="2888.0407365912642" y="5035.0" />
+      <point x="-100.70422535211264" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryStudent" target="br.edu.utfpr.dv.siacoes.model.Jury">
+      <point x="0.0" y="126.5" />
+      <point x="1775.4323633131537" y="10307.0" />
+      <point x="1911.5006993455895" y="10307.0" />
+      <point x="0.0" y="-566.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryStudent" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-61.333333333333485" y="-126.5" />
+      <point x="1714.0990299798202" y="9380.0" />
+      <point x="1789.5990299798202" y="9380.0" />
+      <point x="1789.5990299798202" y="5065.0" />
+      <point x="2900.1252436335176" y="5065.0" />
+      <point x="-88.61971830985931" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryRequest" target="br.edu.utfpr.dv.siacoes.model.Proposal">
+      <point x="54.54545454545496" y="-401.5" />
+      <point x="2068.0461538910445" y="11600.0" />
+      <point x="2211.415696646487" y="11600.0" />
+      <point x="2211.415696646487" y="8369.0" />
+      <point x="2186.388020293477" y="8369.0" />
+      <point x="-53.39285714285734" y="599.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserReport" target="br.edu.utfpr.dv.siacoes.model.JuryFormAppraiserDetailReport">
+      <point x="-81.5" y="-423.5" />
+      <point x="6947.796224256592" y="542.0" />
+      <point x="6959.296224256592" y="542.0" />
+      <point x="-70.0" y="258.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Activity" target="br.edu.utfpr.dv.siacoes.model.ActivityGroup">
+      <point x="-110.22222222222172" y="-357.5" />
+      <point x="309.04447207684734" y="3464.0" />
+      <point x="205.16666666666606" y="3464.0" />
+      <point x="16.33333333333303" y="225.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.UserDepartment" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-83.66666666666652" y="-357.5" />
+      <point x="2833.5782952767104" y="1633.0" />
+      <point x="4671.252884478588" y="1633.0" />
+      <point x="-32.9375" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterAppraiserRequest" target="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequest">
+      <point x="-18.999999999999773" y="-159.5" />
+      <point x="4053.815940794282" y="9390.0" />
+      <point x="4036.315940794282" y="9390.0" />
+      <point x="-146.0" y="203.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.BugReport" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-82.875" y="-357.5" />
+      <point x="3820.4159407942816" y="5015.0" />
+      <point x="3073.3365112391516" y="5015.0" />
+      <point x="84.59154929577471" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiserScore" target="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiser">
+      <point x="0.0" y="159.5" />
+      <point x="4607.055524127615" y="5225.0" />
+      <point x="4315.197438865964" y="5225.0" />
+      <point x="59.8125" y="-324.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Certificate" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-93.33333333333326" y="-258.5" />
+      <point x="4453.551605532631" y="4955.0" />
+      <point x="3097.5055253236587" y="4955.0" />
+      <point x="108.76056338028184" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Activity" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="82.66666666666697" y="-357.5" />
+      <point x="501.93336096573603" y="3454.0" />
+      <point x="537.8778054101804" y="3454.0" />
+      <point x="537.8778054101804" y="1493.0" />
+      <point x="4617.002884478588" y="1493.0" />
+      <point x="-87.1875" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Attendance" target="br.edu.utfpr.dv.siacoes.model.Proposal">
+      <point x="16.5" y="-357.5" />
+      <point x="2049.6823633131535" y="8359.0" />
+      <point x="2100.9594488649063" y="8359.0" />
+      <point x="-138.82142857142844" y="599.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.SigetConfig" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-110.0" y="-830.5" />
+      <point x="5357.993148859767" y="1633.0" />
+      <point x="4748.752884478588" y="1633.0" />
+      <point x="44.5625" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.SigesConfig" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-101.66666666666674" y="-533.5" />
+      <point x="6023.254557589925" y="1543.0" />
+      <point x="4783.627884478588" y="1543.0" />
+      <point x="79.4375" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Jury" target="br.edu.utfpr.dv.siacoes.model.JuryStudent">
+      <point x="-36.266666666666424" y="-566.5" />
+      <point x="1875.234032678923" y="10327.0" />
+      <point x="1701.8323633131538" y="10327.0" />
+      <point x="-73.59999999999991" y="126.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryAppraiser" target="br.edu.utfpr.dv.siacoes.model.JuryAppraiserScore">
+      <point x="-116.375" y="-324.5" />
+      <point x="1414.0573633131537" y="9390.0" />
+      <point x="1370.8975441030018" y="9390.0" />
+      <point x="-102.39999999999964" y="159.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryAppraiserRequest" target="br.edu.utfpr.dv.siacoes.model.JuryRequest">
+      <point x="-73.4375" y="-192.5" />
+      <point x="1970.0631993455895" y="12527.0" />
+      <point x="1893.5006993455895" y="12527.0" />
+      <point x="-120.0" y="401.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.BugReport" target="br.edu.utfpr.dv.siacoes.model.Module">
+      <point x="82.875" y="-357.5" />
+      <point x="3986.1659407942816" y="5255.0" />
+      <point x="4066.1278844785884" y="5255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.EvaluationItem" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-75.66666666666697" y="-291.5" />
+      <point x="633.2875276324021" y="1543.0" />
+      <point x="4636.377884478588" y="1543.0" />
+      <point x="-67.8125" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Internship" target="br.edu.utfpr.dv.siacoes.model.InternshipReport">
+      <point x="-22.692307692307622" y="698.5" />
+      <point x="5428.9119522785695" y="6822.0" />
+      <point x="5121.056165153257" y="6822.0" />
+      <point x="72.8125" y="-324.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.UserInfo" target="br.edu.utfpr.dv.siacoes.model.UserDepartment">
+      <point x="-50.5" y="-489.5" />
+      <point x="1149.9541942990693" y="3464.0" />
+      <point x="2812.6616286100434" y="3464.0" />
+      <point x="-104.58333333333348" y="357.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipEvaluationItem" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-84.66666666666669" y="-258.5" />
+      <point x="4522.388857460948" y="1713.0" />
+      <point x="4702.252884478588" y="1713.0" />
+      <point x="-1.9375" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryRequest" target="br.edu.utfpr.dv.siacoes.model.Thesis">
+      <point x="136.36363636363603" y="-401.5" />
+      <point x="2149.8643357092255" y="11630.0" />
+      <point x="2389.0726382963862" y="11630.0" />
+      <point x="2389.0726382963862" y="10377.0" />
+      <point x="2490.2949619433766" y="10377.0" />
+      <point x="-46.0" y="423.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryRequest" target="br.edu.utfpr.dv.siacoes.model.Jury">
+      <point x="-81.81818181818198" y="-401.5" />
+      <point x="1931.6825175274075" y="11610.0" />
+      <point x="1809.5006993455895" y="11610.0" />
+      <point x="-102.0" y="566.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryRequest" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-136.3636363636365" y="-401.5" />
+      <point x="1877.137062981953" y="11630.0" />
+      <point x="1323.7975441030014" y="11630.0" />
+      <point x="1323.7975441030014" y="5015.0" />
+      <point x="2879.984398563095" y="5015.0" />
+      <point x="-108.76056338028184" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJury" target="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiser">
+      <point x="0.0" y="-698.5" />
+      <point x="4065.690940794282" y="6722.0" />
+      <point x="4127.784938865964" y="6722.0" />
+      <point x="-127.60000000000002" y="324.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Semester" target="br.edu.utfpr.dv.siacoes.model.Campus">
+      <point x="-62.0" y="-192.5" />
+      <point x="4436.190384478588" y="818.0" />
+      <point x="4528.690384478588" y="818.0" />
+      <point x="-72.5" y="269.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.JuryAppraiserRequest" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-102.8125" y="-192.5" />
+      <point x="1940.6881993455895" y="12537.0" />
+      <point x="1311.9541942990693" y="12537.0" />
+      <point x="1311.9541942990693" y="5005.0" />
+      <point x="2875.9562295490105" y="5005.0" />
+      <point x="-112.78873239436643" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.FinalSubmission" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-93.33333333333303" y="-258.5" />
+      <point x="862.120860965736" y="4915.0" />
+      <point x="914.7875276324023" y="4915.0" />
+      <point x="914.7875276324023" y="1583.0" />
+      <point x="4651.877884478588" y="1583.0" />
+      <point x="-52.3125" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequestForm" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-68.4375" y="-247.5" />
+      <point x="4004.3784407942817" y="10357.0" />
+      <point x="3393.366632885779" y="10357.0" />
+      <point x="3393.366632885779" y="5125.0" />
+      <point x="3029.026652084222" y="5125.0" />
+      <point x="40.28169014084506" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipJuryAppraiser" target="br.edu.utfpr.dv.siacoes.model.InternshipJury">
+      <point x="0.0" y="324.5" />
+      <point x="4255.384938865964" y="6742.0" />
+      <point x="4113.5370946404355" y="6742.0" />
+      <point x="47.84615384615381" y="-698.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Company" target="br.edu.utfpr.dv.siacoes.model.City">
+      <point x="-62.66666666666666" y="-269.5" />
+      <point x="6329.754557589926" y="1733.0" />
+      <point x="6338.754557589926" y="1733.0" />
+      <point x="-53.666666666666664" y="137.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Project" target="br.edu.utfpr.dv.siacoes.model.Proposal">
+      <point x="-86.25" y="-423.5" />
+      <point x="2642.5726382963862" y="8369.0" />
+      <point x="2293.1737345791917" y="8369.0" />
+      <point x="53.39285714285734" y="599.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterAppraiserRequest" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="-56.99999999999977" y="-159.5" />
+      <point x="4015.815940794282" y="9370.0" />
+      <point x="3432.1307173928217" y="9370.0" />
+      <point x="3432.1307173928217" y="5095.0" />
+      <point x="3041.1111591264757" y="5095.0" />
+      <point x="52.36619718309885" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.InternshipPosterRequest" target="br.edu.utfpr.dv.siacoes.model.InternshipJury">
+      <point x="-156.42857142857156" y="-203.5" />
+      <point x="4025.8873693657106" y="8379.0" />
+      <point x="3949.065940794282" y="8379.0" />
+      <point x="-116.625" y="698.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.ActivitySubmissionReport" target="br.edu.utfpr.dv.siacoes.model.ActivitySubmissionDetailReport">
+      <point x="-125.99999999999909" y="-291.5" />
+      <point x="7797.246224256592" y="613.0" />
+      <point x="7749.246224256592" y="613.0" />
+      <point x="-72.0" y="291.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.StudentActivityStatusReport" target="br.edu.utfpr.dv.siacoes.model.ActivitySubmissionFooterReport">
+      <point x="-84.0" y="-324.5" />
+      <point x="8204.24622425659" y="613.0" />
+      <point x="8207.24622425659" y="613.0" />
+      <point x="36.0" y="258.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.SigacConfig" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-74.66666666666697" y="-137.5" />
+      <point x="5753.754557589925" y="1593.0" />
+      <point x="4764.252884478588" y="1593.0" />
+      <point x="60.0625" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.UserInfo" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="50.5" y="-489.5" />
+      <point x="1250.9541942990693" y="4995.0" />
+      <point x="2871.9280605349263" y="4995.0" />
+      <point x="-116.81690140845058" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.SupervisorChange" target="br.edu.utfpr.dv.siacoes.model.User">
+      <point x="48.19999999999982" y="-445.5" />
+      <point x="3021.022638296386" y="8379.0" />
+      <point x="3052.539428302584" y="8379.0" />
+      <point x="3052.539428302584" y="5235.0" />
+      <point x="2984.7167929292923" y="5235.0" />
+      <point x="-4.028169014084597" y="665.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Deadline" target="br.edu.utfpr.dv.siacoes.model.Department">
+      <point x="-95.33333333333326" y="-324.5" />
+      <point x="5043.659815526434" y="1673.0" />
+      <point x="4733.252884478588" y="1673.0" />
+      <point x="29.0625" y="302.5" />
+    </edge>
+    <edge source="br.edu.utfpr.dv.siacoes.model.Department" target="br.edu.utfpr.dv.siacoes.model.Campus">
+      <point x="-62.0" y="-302.5" />
+      <point x="4642.190384478588" y="838.0" />
+      <point x="4615.690384478588" y="838.0" />
+      <point x="14.5" y="269.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0999999999999999" x="4852.440476190479" y="984.6785714285711" />
+  <SelectedNodes>
+    <node>br.edu.utfpr.dv.siacoes.model.Department</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
